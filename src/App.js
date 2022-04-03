@@ -1,17 +1,15 @@
 import React, { Component } from 'react'
 import Navbar from './components/Navbar'
-// import { render } from "react-dom";
+import News from './components/News'
 import {
   BrowserRouter,
   Routes,
   Route,
-  // Link
 } from "react-router-dom";
 export class App extends Component {
   render() {
     return (
         <div className="container">
-          {/* <News categories="business" /> */}
           <BrowserRouter>
             <Navbar />
             <Routes>
